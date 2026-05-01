@@ -13,5 +13,4 @@ export default function DashboardLayout({
       <div className="w-5/6 bg-blue-200">r</div>
       </div>
   
-
 }
