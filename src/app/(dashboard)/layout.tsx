@@ -1,5 +1,8 @@
+
+import Menu from "@/components/Menu";
 import Image from "next/image";
 import Link from "next/link";
+
 
 export default function DashboardLayout({
   children,
@@ -13,6 +16,8 @@ export default function DashboardLayout({
         <Image  src="/logo.png" alt="logo" width={32} height={32}/>
 
         <span className="hidden lg:block"> DevsSchool </span>
+        
+        <Menu/>
 
         </Link>
       </div>
