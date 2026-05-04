@@ -10,9 +10,16 @@ const Navbar = () => {
         <input type="text" placeholder="Search..." />
       </div>
       {/*ICONS AND USERS*/}
-      <div className="">
-        <div className="bg-white rounded-full w-7 h-7 flex items-center justify-center">
+      <div className="flex items-center gap-6">
+        <div className="bg-white rounded-full w-7 h-7 flex items-center justify-center cursor-pointer">
           <Image src="/message.png" alt="" width={20} height={20} />
+        </div>
+        <div className="bg-white rounded-full w-7 h-7 flex items-center justify-center cursor-pointer">
+          <Image src="/announcement.png" alt="" width={20} height={20} />
+        </div>
+        <div className="flex flex-col">
+          <span className="text-sm leading-3 font-medium">AssumDevs</span>
+          <span className="">Admin</span>
         </div>
       </div>
 
