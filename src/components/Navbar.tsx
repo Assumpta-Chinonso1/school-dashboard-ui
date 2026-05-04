@@ -1,6 +1,13 @@
 const Navbar = () => {
   return (
-    <div className=''>Navbar</div>
+    <div className='flex items-center justify-between p-4'>
+      
+      {/*SEARCH BAR*/}
+      <div className=""></div>
+      {/*SEARCH BAR*/}
+      <div className=""></div>
+
+    </div>
   );
 };
 
