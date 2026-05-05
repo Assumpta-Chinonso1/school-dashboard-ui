@@ -18,7 +18,7 @@ const config: Config = {
         assumDevsLight: "#EDF9FD",
         assumDevsPurple: "#CFCEFF",
         assumDevsPurpleLight: "#F1F0FF",
-        assumDevsYellow: "#AFAE27C",
+        assumDevsYellow: "#FAE27C",
         assumDevsYellowLight: "#FEFCE8"
       }
     },
