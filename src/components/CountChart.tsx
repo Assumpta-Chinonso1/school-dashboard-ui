@@ -74,9 +74,10 @@ const CountChart = () => {
           barSize={14}
         >
           <RadialBar
-            dataKey="value"
+           
             background
             clockWise
+            dataKey="uv"
           />
           <Tooltip />
         </RadialBarChart>
