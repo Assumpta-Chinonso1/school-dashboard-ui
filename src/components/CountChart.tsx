@@ -1,5 +1,8 @@
-import { RadialBarChart, RadialBar, Legend, Tooltip } from 'recharts';
-import { RechartsDevtools } from '@recharts/devtools';
+"user client"
+
+import { RadialBarChart, RadialBar, Legend, Tooltip, ResponsiveContainer } from 'recharts';
+//import { RechartsDevtools } from '@recharts/devtools';
+
 
 // #region Sample data
 const data = [
@@ -47,13 +50,6 @@ const data = [
   },
 ];
 
-// #endregion
-const style = {
-  top: '50%',
-  right: 0,
-  transform: 'translate(0, -50%)',
-  lineHeight: '24px',
-};
 
 
 
@@ -61,7 +57,34 @@ const style = {
 
 const CountChart = () => {
   return (
-    <div className=''>CountChart</div>
+    <div className=''>
+        {/*TITLE */}
+
+        <div className=""></div>
+        {/*CHART */}
+              <ResponsiveContainer width="100%" height="100%">
+        <RadialBarChart
+          data={data}
+          innerRadius="70%"
+          outerRadius="100%"
+          startAngle={90}
+          endAngle={-270}
+          cx="50%"
+          cy="50%"
+          barSize={14}
+        >
+          <RadialBar
+            dataKey="value"
+            background
+            clockWise
+          />
+          <Tooltip />
+        </RadialBarChart>
+      </ResponsiveContainer>
+        <div className=""></div>
+        {/*BOTTOM*/}
+        <div className=""></div>
+    </div>
   );
 };
 
