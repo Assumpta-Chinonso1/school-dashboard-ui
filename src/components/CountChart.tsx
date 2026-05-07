@@ -1,5 +1,6 @@
 "user client"
 
+import Image from 'next/image';
 import { RadialBarChart, RadialBar, Legend, Tooltip, ResponsiveContainer } from 'recharts';
 //import { RechartsDevtools } from '@recharts/devtools';
 
@@ -60,9 +61,12 @@ const CountChart = () => {
     <div className=''>
         {/*TITLE */}
 
-        <div className=""></div>
+        <div className=" flex justify-between items-center">
         {/*CHART */}
-              <ResponsiveContainer width="100%" height="100%">
+        <h1>Students</h1>
+        <Image src="moreDark.png" alt="" width={20} height={20} />
+        </div>
+         <ResponsiveContainer width="100%" height="100%">
         <RadialBarChart
           data={data}
           innerRadius="70%"
@@ -79,9 +83,11 @@ const CountChart = () => {
             clockWise
             dataKey="uv"
           />
-          <Tooltip />
+            
         </RadialBarChart>
       </ResponsiveContainer>
+
+
         <div className=""></div>
         {/*BOTTOM*/}
         <div className=""></div>
