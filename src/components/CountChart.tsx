@@ -64,28 +64,29 @@ const CountChart = () => {
         <div className=" flex justify-between items-center">
         {/*CHART */}
         <h1>Students</h1>
-        <Image src="moreDark.png" alt="" width={20} height={20} />
+        <Image src="/moreDark.png" alt="" width={20} height={20} />
         </div>
-         <ResponsiveContainer width="100%" height="100%">
+         {/*<ResponsiveContainer width="100%" height="100%">
         <RadialBarChart
           data={data}
-          innerRadius="70%"
-          outerRadius="100%"
+          innerRadius="10%"
+          outerRadius="80%"
           startAngle={90}
           endAngle={-270}
           cx="50%"
           cy="50%"
-          barSize={14}
+          barSize={10}
         >
           <RadialBar
-           
+          minAngel={15}
+          label={{position: 'insideStart', fill: '#fff'}}  
             background
             clockWise
             dataKey="uv"
           />
-            
+            <Legend iconSize={10} layout='vertical' verticalAlign='middle' wrapperStyle={style} />
         </RadialBarChart>
-      </ResponsiveContainer>
+      </ResponsiveContainer>*/}
 
 
         <div className=""></div>
