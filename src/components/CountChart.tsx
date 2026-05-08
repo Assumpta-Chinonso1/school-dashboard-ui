@@ -41,7 +41,7 @@ const CountChart = () => {
         <h1 className='text-lg font-semibold'>Students</h1>
         <Image src="/moreDark.png" alt="" width={20} height={20} />
         </div>
-        <div className='w-full h-[75%]'>
+        <div className='relative w-full h-[75%]'>
          <ResponsiveContainer>
         <RadialBarChart
           data={data}
@@ -61,6 +61,7 @@ const CountChart = () => {
             <Legend iconSize={10} layout='vertical' verticalAlign='middle'/>
         </RadialBarChart>
       </ResponsiveContainer>
+    <Image src="/maleFemale.png" alt="" width={50} height={50} className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'  />
        </div>
 
         
