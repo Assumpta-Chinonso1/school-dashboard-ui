@@ -1,6 +1,6 @@
 "use client"
 import Image from 'next/image';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Rectangle } from 'recharts';
 
 
 // #region Sample data
@@ -57,9 +57,10 @@ const AttendanceChart = () => {
       <XAxis dataKey="name" />
       <YAxis width="auto" />
       <Tooltip />
-      <Legend />
-      <Bar dataKey="pv" fill="#8884d8" activeBar={{ fill: 'pink', stroke: 'blue' }} radius={[10, 10, 0, 0]} />
-      <Bar dataKey="uv" fill="#82ca9d" activeBar={{ fill: 'gold', stroke: 'purple' }} radius={[10, 10, 0, 0]} />
+      <Legend  a/>
+      <Bar dataKey="present" fill="#8884d8" activeBar= {<Rectangle fill="pink" stroke="blue"/>}/>
+      
+      <Bar dataKey="absent" fill="#82ca9d" activeBar = { <Rectangle fill="gold" stroke="purple"/>}/>
       </BarChart>
       
     </ResponsiveContainer>
