@@ -41,17 +41,17 @@ const data = [
 
 const AttendanceChart = () => {
   return (
-    <div className=''>
+    <div className='bg-white rounded-lg p-4 h-full'>
         <div className="">
             <h1 className="">Attendance</h1>
             <Image src="/moreDark.png" alt="" width={20} height={20} />
         </div>
-         <ResponsiveContainer width="100%" height="80%">
+         <ResponsiveContainer width="100%" height="90%">
         <BarChart
             data={data}
             width={500}
             height={300}
-            margin={{ top: 20, right: 30, left: 20, bottom: 5 }} >
+             barSize={20} >
 
       <CartesianGrid strokeDasharray="3 3" />
       <XAxis dataKey="name" />
