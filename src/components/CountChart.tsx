@@ -54,11 +54,11 @@ const CountChart = () => {
           barSize={32}
         >
           <RadialBar
-          label={{position: 'insideStart', fill: '#fff'}}  
+         
             background
             dataKey="count"
           />
-            <Legend iconSize={10} layout='vertical' verticalAlign='middle'/>
+            {/*<Legend iconSize={10} layout='vertical' verticalAlign='middle'/>*/}
         </RadialBarChart>
       </ResponsiveContainer>
     <Image src="/maleFemale.png" alt="" width={50} height={50} className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'  />
