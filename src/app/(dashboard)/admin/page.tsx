@@ -32,7 +32,7 @@ const AdminPage = () => {
         </div>
 
         {/*BOTTOM CHARTS*/}
-         <div className="">
+         <div className="w-full h-[500px]">
           
         </div>
       
