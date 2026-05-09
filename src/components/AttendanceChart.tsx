@@ -52,14 +52,14 @@ const AttendanceChart = () => {
             height={300}
              barSize={20} >
 
-      <CartesianGrid strokeDasharray="3 3" vertical={false} />
+      <CartesianGrid strokeDasharray="3 3" vertical={false} stroke='#ddd' />
       <XAxis dataKey="name" axisLine={false} />
       <YAxis axisLine={false} />
       <Tooltip />
       <Legend  align="left" verticalAlign="top" wrapperStyle={{paddingTop:"20px", paddingBottom:"40px" }} />
-      <Bar dataKey="present" fill="#8884d8" activeBar= {<Rectangle fill="pink" stroke="blue"/>}/>
+      <Bar dataKey="present" fill="#FAE27C" legendType='circle' radius={[10, 10, 0, 0]}/>
       
-      <Bar dataKey="absent" fill="#82ca9d" activeBar = { <Rectangle fill="gold" stroke="purple"/>}/>
+      <Bar dataKey="absent" fill="#C3EBFA" legendType='circle' radius={[10, 10, 0, 0]}/>
       </BarChart>
       
     </ResponsiveContainer>
