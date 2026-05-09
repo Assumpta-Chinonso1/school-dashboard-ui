@@ -3,7 +3,6 @@ import Image from 'next/image';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Rectangle } from 'recharts';
 
 
-// #region Sample data
 const data = [
   {
     name: 'Mon',
@@ -53,9 +52,9 @@ const AttendanceChart = () => {
             height={300}
              barSize={20} >
 
-      <CartesianGrid strokeDasharray="3 3" />
-      <XAxis dataKey="name" />
-      <YAxis width="auto" />
+      <CartesianGrid strokeDasharray="3 3" vertical={false} />
+      <XAxis dataKey="name" axisLine={false} />
+      <YAxis axisLine={false} />
       <Tooltip />
       <Legend  align="left" verticalAlign="top" wrapperStyle={{paddingTop:"20px", paddingBottom:"40px" }} />
       <Bar dataKey="present" fill="#8884d8" activeBar= {<Rectangle fill="pink" stroke="blue"/>}/>
