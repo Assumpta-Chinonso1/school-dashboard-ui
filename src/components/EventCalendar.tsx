@@ -1,6 +1,7 @@
+"use client"
 
-
-{/*import { useState } from "react";
+import { useState } from "react";
+import Calendar from "react-calendar";
 
 
 
@@ -14,12 +15,13 @@ const EventCalendar = () => {
 
   return (
     <div className=''>
+        <Calendar/>
     
     </div>
   );
 };
 
-export default EventCalendar;*/}
+export default EventCalendar;
 
 
 
