@@ -15,7 +15,7 @@ const EventCalendar = () => {
 
   return (
     <div className=''>
-        <Calendar onChange={onChange} value={value} />
+        <Calendar/>
     
     </div>
   );
