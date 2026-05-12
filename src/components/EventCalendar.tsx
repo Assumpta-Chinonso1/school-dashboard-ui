@@ -52,6 +52,9 @@ const EventCalendar = () => {
   return (
     <div className='bg-white p-4 rounded-md'>
         <Calendar onChange={onChange} value={value} />
+        <div className="flex items-center justify-between">
+          <h1>Events</h1>
+        </div>
         <div className="flex flex-col gap-4">
           {events.map(event => (
             <div className="" key={event.id}>
