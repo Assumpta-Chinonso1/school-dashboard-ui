@@ -57,8 +57,9 @@ const EventCalendar = () => {
             <div className="" key={event.id}>
               <div className="flex items-center justify-between">
                 <h1>{event.title}</h1>
-                span
+                 <span>{event.time}</span>
               </div>
+              <p>{event.description}</p>
             </div>
           ))}
         </div>
