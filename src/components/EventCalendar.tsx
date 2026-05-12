@@ -63,7 +63,7 @@ const EventCalendar = () => {
             <div className="p-5 rounded-md border-2 border-gray-100 border-t-4 odd:border-t-assumDevs even:border-t-assumDevsPurple" 
             key={event.id}>
               <div className="flex items-center justify-between">
-                <h1>{event.title}</h1>
+                <h1 className="font-semibold text-gray-600">{event.title}</h1>
                  <span>{event.time}</span>
               </div>
               <p>{event.description}</p>
