@@ -56,7 +56,8 @@ const EventCalendar = () => {
           {events.map(event => (
             <div className="" key={event.id}>
               <div className="flex items-center justify-between">
-                h
+                <h1>{event.title}</h1>
+                span
               </div>
             </div>
           ))}
