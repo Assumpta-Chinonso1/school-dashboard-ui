@@ -10,7 +10,7 @@ import 'react-calendar/dist/Calendar.css';
 type ValuePiece = Date| null;
 type Value = ValuePiece | [ValuePiece, ValuePiece] 
 
-
+//TEMPORARY
 const events = [
   {
     id: 1,
@@ -51,7 +51,16 @@ const EventCalendar = () => {
 
   return (
     <div className='bg-white p-4 rounded-md'>
-        <Calendar/>
+        <Calendar onChange={onChange} value={value} />
+        <div className="flex flex-col gap-4">
+          {events.map(event => (
+            <div className="" key={event.id}>
+              <div className="flex items-center justify-between">
+                h
+              </div>
+            </div>
+          ))}
+        </div>
     
     </div>
   );
