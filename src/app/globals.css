@@ -16,3 +16,11 @@
     background: #C3EBFA !important;
     color: black !important;
 }
+
+.rbc-btn-group:first-child{
+    display: none !important;
+}
+
+.rbc-toolbar-label{
+    text-align: right !important;
+}
