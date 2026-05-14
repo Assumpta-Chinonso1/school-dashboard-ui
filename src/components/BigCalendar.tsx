@@ -1,6 +1,6 @@
 "use client"
 
-import { Calendar, momentLocalizer, Views } from 'react-big-calendar'
+import { Calendar, momentLocalizer, Views, View } from 'react-big-calendar'
 import moment from 'moment'
 import { calendarEvents } from '@/lib/data'
 import "react-big-calendar/lib/css/react-big-calendar.css"
@@ -18,7 +18,7 @@ const BigCalendar = () => {
       startAccessor="start"
       endAccessor="end"
       views={["work_week", "day"]}
-      view="view"
+      view={view}
       style={{ height: 500 }}
     />
   </div>
