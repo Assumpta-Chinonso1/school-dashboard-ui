@@ -25,3 +25,11 @@
     text-align: right !important;
     padding: 0px 20px !important;
 }
+
+.rbc-btn-group:last-child{
+   font-size: 30px !important;
+}
+
+.rbc-btn-group:last-child button{
+   border: none !important;
+}
