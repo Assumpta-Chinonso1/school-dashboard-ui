@@ -11,7 +11,7 @@ const localizer = momentLocalizer(moment)
 const BigCalendar = () => { 
   const [view, setView] = useState<View>( Views.WORK_WEEK )
 
- return ( <div>
+ return ( 
     <Calendar
       localizer={localizer}
       events={calendarEvents}
@@ -21,7 +21,7 @@ const BigCalendar = () => {
       view={view}
       style={{ height: 500 }}
     />
-  </div>
+  
 )
 }
  export default BigCalendar
