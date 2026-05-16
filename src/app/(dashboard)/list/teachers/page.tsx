@@ -1,4 +1,5 @@
 import TableSearchPage from '@/components/TableSearch';
+import Pagination from '@/components/Pagination';
 import Image from 'next/image';
 
 const TeacherListPage = () => {
@@ -22,10 +23,12 @@ const TeacherListPage = () => {
           </div>
         </div>
       </div>
-      {/*Top*/}
+      {/*List*/}
       <div className=""></div>
-      {/*Top*/}
-      <div className=""></div>
+      {/*Pagination*/}
+      <div className="">
+        <Pagination />
+      </div>
     </div>
   );
 };
