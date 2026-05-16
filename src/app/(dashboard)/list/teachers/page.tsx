@@ -14,10 +14,10 @@ const TeacherListPage = () => {
               <Image src="/filter.png" alt="" width={14} height={14} />
             </button>
              <button className="w-8 h-8 flex items-center justify-center rounded-full bg-assumDevsYellow">
-              <Image src="/filter.png" alt="" width={14} height={14} />
+              <Image src="/sort.png" alt="" width={14} height={14} />
             </button>
              <button className="w-8 h-8 flex items-center justify-center rounded-full bg-assumDevsYellow">
-              <Image src="/filter.png" alt="" width={14} height={14} />
+              <Image src="/plus.png" alt="" width={14} height={14} />
             </button>
           </div>
         </div>
