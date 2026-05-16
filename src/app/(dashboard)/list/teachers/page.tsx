@@ -1,4 +1,5 @@
 import TableSearchPage from '@/components/TableSearch';
+import Image from 'next/image';
 
 const TeacherListPage = () => {
   return (
@@ -9,7 +10,9 @@ const TeacherListPage = () => {
         <div className="">
           <TableSearchPage />
           <div className="">
-            
+            <button>
+              <Image src="/filter.png" alt="" width={14} height={14} />
+            </button>
           </div>
         </div>
       </div>
