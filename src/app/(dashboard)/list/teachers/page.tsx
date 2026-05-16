@@ -5,9 +5,9 @@ const TeacherListPage = () => {
   return (
     <div className='bg-white p-4 rounded-md flex-1 m-4 mt-0'>
       {/*Top*/}
-      <div className="">
-        <h1 > All Teachers</h1>
-        <div className="">
+      <div className="flex items-center justify-between">
+        <h1 className=" hidden md:block text-lg font-semibold" > All Teachers</h1>
+        <div className="flex flex-col md:flex-row items-center gap-4">
           <TableSearchPage />
           <div className="">
             <button>
