@@ -1,6 +1,13 @@
 const TeacherListPage = () => {
   return (
-    <div className='bg-white p-4 rounded-md flex-1 m-4'>Page</div>
+    <div className='bg-white p-4 rounded-md flex-1 m-4 mt-0'>
+      {/*Top*/}
+      <div className=""></div>
+      {/*Top*/}
+      <div className=""></div>
+      {/*Top*/}
+      <div className=""></div>
+    </div>
   );
 };
 
