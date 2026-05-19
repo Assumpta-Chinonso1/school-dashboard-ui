@@ -8,7 +8,9 @@ const columns = [
     header: "Info", accessor: "info"
   },
   {
-    header: "Teacher ID ", accessor: "teacher id"
+    header: "Teacher ID ", 
+    accessor: "teacherid",
+     className: "hidden md:table-cell"
   },
 ]
 
