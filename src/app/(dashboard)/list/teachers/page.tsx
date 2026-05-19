@@ -3,6 +3,15 @@ import Pagination from '@/components/Pagination';
 import Image from 'next/image';
 import Table from '@/components/Table';
 
+const columns = [
+  {
+    header: "Info", accessor: "info"
+  },
+  {
+    header: "Teacher ID ", accessor: "teacher id"
+  },
+]
+
 const TeacherListPage = () => {
   return (
     <div className='bg-white p-4 rounded-md flex-1 m-4 mt-0'>

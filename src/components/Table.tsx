@@ -1,6 +1,10 @@
 const Table = () => {
   return (
-    <div className=''>Table</div>
+    <table className='w-full mt-4'>
+        <thead>
+            
+        </thead>
+    </table>
   );
 };
 
