@@ -3,7 +3,7 @@ import Pagination from '@/components/Pagination';
 import Image from 'next/image';
 import Table from '@/components/Table';
 import Link from 'next/link';
-import { role, teachersData } from '@/lib/data';
+import { role, studentsData} from '@/lib/data';
 
 type Teacher = {
   id: number;
@@ -57,7 +57,7 @@ const columns = [
 
 ]
 
-const StudentsListPage = () => {
+const StudentListPage = () => {
 
 const renderRow = (item:Teacher) => (
   <tr key={item.id} className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-assumDevsPurpleLight">
@@ -110,7 +110,7 @@ const renderRow = (item:Teacher) => (
         </div>
       </div>
       {/*List*/}
-      <Table columns={columns}  renderRow={renderRow} data={teachersData}/>
+      <Table columns={columns}  renderRow={renderRow} data={studentsData}/>
       {/*Pagination*/}
 
         <Pagination />
@@ -119,4 +119,4 @@ const renderRow = (item:Teacher) => (
   );
 };
 
-export default StudentsListPage;
+export default StudentListPage;
