@@ -5,7 +5,7 @@ import Table from '@/components/Table';
 import Link from 'next/link';
 import { role, studentsData} from '@/lib/data';
 
-type Teacher = {
+type Student = {
   id: number;
   teacherid: string;
   name: string;
@@ -30,12 +30,6 @@ const columns = [
     {
     header: "Grade", 
     accessor: "grade",
-     className: "hidden md:table-cell"
-  },
-
-    {
-    header: "Classes", 
-    accessor: "classes",
      className: "hidden md:table-cell"
   },
   {
