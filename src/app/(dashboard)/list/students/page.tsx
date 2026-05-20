@@ -23,13 +23,13 @@ const columns = [
     header: "Info", accessor: "info"
   },
   {
-    header: "Teacher ID ", 
-    accessor: "teacherid",
+    header: "Student ID ", 
+    accessor: "studentid",
      className: "hidden md:table-cell"
   },
     {
-    header: "Subjects ", 
-    accessor: "subjects",
+    header: "Grade", 
+    accessor: "grade",
      className: "hidden md:table-cell"
   },
 
