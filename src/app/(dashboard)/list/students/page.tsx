@@ -7,13 +7,13 @@ import { role, studentsData} from '@/lib/data';
 
 type Student = {
   id: number;
-  teacherid: string;
+  studentId: string;
   name: string;
   email?:string[];
   photo: string;
-  phone:string;
-  subjects: string;
-  classes: string;
+  phone?:string;
+  grade: number;
+  class: string;
   address: string;
 
 }
