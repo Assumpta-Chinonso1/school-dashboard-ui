@@ -13,7 +13,7 @@ type Teacher = {
   photo: string;
   phone:string;
   subjects: string;
-  classes: string;
+  classes: string[];
   address: string;
 
 }
