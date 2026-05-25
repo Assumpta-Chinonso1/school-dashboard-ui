@@ -8,9 +8,8 @@ import { role, studentsData} from '@/lib/data';
 type Parent = {
   id: number;
   name: string;
-  email?:string[];
-  photo: string;
-  phone?:string;
+  students:string[];
+  phone:string;
   grade: number;
   class: string;
   address: string;
