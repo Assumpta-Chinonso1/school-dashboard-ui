@@ -10,7 +10,7 @@ type Parent = {
   name: string;
   students:string[];
   phone:string;
-  email?: sring;
+  email?: string;
   address: string;
 
 }
