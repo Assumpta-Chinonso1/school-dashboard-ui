@@ -5,9 +5,8 @@ import Table from '@/components/Table';
 import Link from 'next/link';
 import { role, studentsData} from '@/lib/data';
 
-type Student = {
+type Parent = {
   id: number;
-  studentId: string;
   name: string;
   email?:string[];
   photo: string;
