@@ -49,14 +49,12 @@ const ParentListPage = () => {
 const renderRow = (item:Parent) => (
   <tr key={item.id} className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-assumDevsPurpleLight">
     <td className="flex items-center gap-4 p-4">
-      <Image src={item.photo} alt='' width={40} height={40} className='md:hidden xl:block w-10 h-10 rounded-full object-cover' />
       <div className="flex flex-col">
         <h3 className='font-semibold'>{item.name}</h3>
-        <p className='text-sm text-gray-500'>{item?.class}</p>
+        <p className='text-sm text-gray-500'>{item?.email}</p>
       </div>
     </td>
-    <td className='hidden md:table-cell'>{item.studentId}</td>
-    <td className='hidden md:table-cell'>{item.grade}</td>
+    <td className='hidden md:table-cell'>{item.students.join(",")}</td>
     <td className='hidden lg:table-cell'>{item.phone}</td>
     <td className='hidden lg:table-cell'>{item.address}</td>
     <td>
