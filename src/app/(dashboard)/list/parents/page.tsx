@@ -10,8 +10,7 @@ type Parent = {
   name: string;
   students:string[];
   phone:string;
-  grade: number;
-  class: string;
+  email?: sring;
   address: string;
 
 }
