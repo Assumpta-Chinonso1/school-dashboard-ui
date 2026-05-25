@@ -114,4 +114,4 @@ const renderRow = (item:Student) => (
   );
 };
 
-export default StudentListPage;
+export default ParentListPage;
