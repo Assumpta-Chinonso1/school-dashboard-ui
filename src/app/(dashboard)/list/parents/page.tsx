@@ -3,7 +3,7 @@ import Pagination from '@/components/Pagination';
 import Image from 'next/image';
 import Table from '@/components/Table';
 import Link from 'next/link';
-import { role, studentsData} from '@/lib/data';
+import { parentsData, role} from '@/lib/data';
 
 type Parent = {
   id: number;
@@ -77,7 +77,7 @@ const renderRow = (item:Parent) => (
     <div className='bg-white p-4 rounded-md flex-1 m-4 mt-0'>
       {/*Top*/}
       <div className="flex items-center justify-between">
-        <h1 className=" hidden md:block text-lg font-semibold" > All Students</h1>
+        <h1 className=" hidden md:block text-lg font-semibold" > All Parents</h1>
         <div className="flex flex-col md:flex-row items-center gap-4 w-full md:w-auto">
           <TableSearchPage />
           <div className="flex items-center gap-4 self-end">
@@ -96,7 +96,7 @@ const renderRow = (item:Parent) => (
         </div>
       </div>
       {/*List*/}
-      <Table columns={columns}  renderRow={renderRow} data={studentsData}/>
+      <Table columns={columns}  renderRow={renderRow} data={parentsData}/>
       {/*Pagination*/}
 
         <Pagination />
