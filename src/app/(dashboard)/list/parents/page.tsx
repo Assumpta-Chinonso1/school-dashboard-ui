@@ -17,11 +17,12 @@ type Parent = {
 
 const columns = [
   {
-    header: "Info", accessor: "info"
+    header: "Info", 
+    accessor: "info"
   },
   {
-    header: "Student ID ", 
-    accessor: "studentid",
+    header: "Student Names", 
+    accessor: "students",
      className: "hidden md:table-cell"
   },
     {
