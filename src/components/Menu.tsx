@@ -128,11 +128,13 @@ const Menu = () => {
             if(item.visible.includes(role)){
               return(
                 (
-            <Link href={item.href} key={item.label} className="flex items-center justify-center lg:justify-start gap-4 text-gray-500 py-2 md:px-2 rounded-md hover:bg-assumDevsLight">
-             <Image src={item.icon} alt="" width={20} height={20} />
-             <span>{item.label}</span>
-
-            </Link>
+                <Link
+              href={item.href}
+               key={item.label}
+            className="flex items-center justify-center lg:justify-start gap-0 lg:gap-4 text-gray-500 py-2 md:px-2 rounded-md hover:bg-assumDevsLight">
+             <Image src={item.icon} alt="" width={24} height={24} />
+              <span className="hidden lg:block">{item.label}</span>
+                 </Link>
           )
               )
             }
