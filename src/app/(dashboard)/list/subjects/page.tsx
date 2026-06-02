@@ -22,16 +22,6 @@ const columns = [
     accessor: "teachers",
      className: "hidden md:table-cell"
   },
-  {
-    header: "Phone", 
-    accessor: "phone",
-     className: "hidden lg:table-cell"
-  },
-    {
-    header: "Address", 
-    accessor: "address",
-     className: "hidden lg:table-cell"
-  },
     {
     header: "Actions", 
     accessor: "actions",
