@@ -33,7 +33,7 @@ const columns = [
 
 const SubjectsListPage = () => {
 
-const renderRow = (item:Parent) => (
+const renderRow = (item:Subject) => (
   <tr key={item.id} className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-assumDevsPurpleLight">
     <td className="flex items-center gap-4 p-4">
       <div className="flex flex-col">
