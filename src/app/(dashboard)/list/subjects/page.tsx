@@ -41,9 +41,6 @@ const renderRow = (item:Subject) => (
         <p className='text-sm text-gray-500'>{item.teachers.join("")}</p>
       </div>
     </td>
-    <td className='hidden md:table-cell'>{item.students.join(",")}</td>
-    <td className='hidden lg:table-cell'>{item.phone}</td>
-    <td className='hidden lg:table-cell'>{item.address}</td>
     <td>
       <div className="flex items-center gap-2">
         <Link href={`/list/teachers/${item.id}`}>
