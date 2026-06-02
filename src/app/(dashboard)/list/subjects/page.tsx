@@ -14,12 +14,12 @@ type Subject = {
 
 const columns = [
   {
-    header: "Info", 
-    accessor: "info"
+    header: "Subject name", 
+    accessor: "name"
   },
   {
-    header: "Student Names", 
-    accessor: "students",
+    header: "Teachers", 
+    accessor: "teachers",
      className: "hidden md:table-cell"
   },
   {
