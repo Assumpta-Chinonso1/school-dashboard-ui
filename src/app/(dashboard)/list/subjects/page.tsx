@@ -5,13 +5,10 @@ import Table from '@/components/Table';
 import Link from 'next/link';
 import { parentsData, role} from '@/lib/data';
 
-type Parent = {
+type Subject = {
   id: number;
   name: string;
-  students:string[];
-  phone:string;
-  email?: string;
-  address: string;
+  teachers:string[];
 
 }
 
