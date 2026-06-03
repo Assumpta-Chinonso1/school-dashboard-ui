@@ -22,7 +22,7 @@ const columns = [
   },
   {
     header: "Classes", 
-    accessor: "classes,
+    accessor: "classes",
      className: "hidden md:table-cell"
   },
     {
