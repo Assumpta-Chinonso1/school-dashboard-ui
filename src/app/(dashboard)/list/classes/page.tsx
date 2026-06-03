@@ -17,7 +17,7 @@ type Class = {
 
 const columns = [
   {
-    header: "Subject name", 
+    header: "Class name", 
     accessor: "name"
   },
   {
