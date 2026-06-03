@@ -10,7 +10,7 @@ type Class = {
   name: string;
   capacity: number;
   grade: number;
-  teachers:string[];
+  supervisor:string;
   
 
 }
