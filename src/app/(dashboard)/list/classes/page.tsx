@@ -3,7 +3,7 @@ import Pagination from '@/components/Pagination';
 import Image from 'next/image';
 import Table from '@/components/Table';
 import Link from 'next/link';
-import { parentsData, role, subjectsData} from '@/lib/data';
+import { classesData, role } from '@/lib/data';
 
 type Class = {
   id: number;
@@ -50,7 +50,10 @@ const renderRow = (item:Class) => (
   <tr key={item.id} className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-assumDevsPurpleLight">
     <td className="flex items-center gap-4 p-4">
         {item.name} </td>
-      <td className="hidden md:table-cell" >{item.teachers.join("")}</td>
+      <td className="hidden md:table-cell" >{item.name}</td>
+      <td className="hidden md:table-cell" >{item.grade}</td>
+       <td className="hidden md:table-cell" >{item.capacity}</td>
+      <td className="hidden md:table-cell" >{item.supervisor}</td>
    
     <td>
       <div className="flex items-center gap-2">
@@ -91,7 +94,7 @@ const renderRow = (item:Class) => (
         </div>
       </div>
       {/*List*/}
-      <Table columns={columns}  renderRow={renderRow} data={subjectsData}/>
+      <Table columns={columns}  renderRow={renderRow} data={classesData}/>
       {/*Pagination*/}
 
         <Pagination />
