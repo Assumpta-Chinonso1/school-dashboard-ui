@@ -8,8 +8,10 @@ import { parentsData, role, subjectsData} from '@/lib/data';
 type Class = {
   id: number;
   name: string;
-  c
+  capacity: number;
+  grade: number;
   teachers:string[];
+  
 
 }
 
