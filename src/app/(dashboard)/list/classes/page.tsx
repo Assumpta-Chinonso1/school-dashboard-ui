@@ -5,9 +5,10 @@ import Table from '@/components/Table';
 import Link from 'next/link';
 import { parentsData, role, subjectsData} from '@/lib/data';
 
-type Subject = {
+type Class = {
   id: number;
   name: string;
+  c
   teachers:string[];
 
 }
