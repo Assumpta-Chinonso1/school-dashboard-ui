@@ -103,4 +103,4 @@ const renderRow = (item:Class) => (
   );
 };
 
-export default ClassesListPage;
+export default LessonListPage;
