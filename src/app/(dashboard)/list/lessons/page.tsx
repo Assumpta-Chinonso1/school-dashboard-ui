@@ -39,16 +39,18 @@ const LessonListPage = () => {
 
 const renderRow = (item:Lesson) => (
   <tr key={item.id} className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-assumDevsPurpleLight">
+   
       <td className="hidden md:table-cell" >{item.subject}</td>
-      <td>{item.class}</td>
+        <td className="flex items-center gap-4 p-4">
+        {item.class} </td>
        <td className="hidden md:table-cell" >{item.teacher}</td>
-      <td className="hidden md:table-cell" >{item.supervisor}</td>
+     
    
     <td>
       <div className="flex items-center gap-2">
         <Link href={`/list/teachers/${item.id}`}>
         <button className='w-7 h-7 flex items-center justify-center rounded-full bg-assumDevs '>
-          <Image src="/view.png" alt='' width={16} height={16}/>
+          <Image src="/edit.png" alt='' width={16} height={16}/>
           </button></Link>
           {role === "admin" &&( <button className='w-7 h-7 flex items-center justify-center rounded-full bg-assumDevsPurple'>
           <Image src="/delete.png" alt='' width={16} height={16}/>
