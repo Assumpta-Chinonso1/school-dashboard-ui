@@ -14,13 +14,12 @@ type Lesson = {
 
 const columns = [
   {
-    header: "Class name", 
+    header: "Subject name", 
     accessor: "name"
   },
   {
-    header: "Capacity", 
-    accessor: "capacity",
-     className: "hidden md:table-cell"
+    header: "Class", 
+    accessor: "class",
   },
   {
     header: "Grade", 
