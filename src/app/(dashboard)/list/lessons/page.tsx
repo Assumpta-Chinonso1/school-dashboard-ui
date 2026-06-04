@@ -5,14 +5,11 @@ import Table from '@/components/Table';
 import Link from 'next/link';
 import { lessonsData, role } from '@/lib/data';
 
-type Class = {
+type Lesson = {
   id: number;
-  name: string;
-  capacity: number;
-  grade: number;
-  supervisor:string;
-  
-
+  subject: string;
+  class: number;
+  teacher: number;
 }
 
 const columns = [
@@ -46,7 +43,7 @@ const columns = [
 
 const LessonListPage = () => {
 
-const renderRow = (item:Class) => (
+const renderRow = (item:Lesson) => (
   <tr key={item.id} className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-assumDevsPurpleLight">
     <td className="flex items-center gap-4 p-4">
         {item.name} </td>
