@@ -44,7 +44,7 @@ const columns = [
 
 ]
 
-const ClassesListPage = () => {
+const LessonListPage = () => {
 
 const renderRow = (item:Class) => (
   <tr key={item.id} className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-assumDevsPurpleLight">
