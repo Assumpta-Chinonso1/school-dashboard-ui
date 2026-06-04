@@ -22,13 +22,8 @@ const columns = [
     accessor: "class",
   },
   {
-    header: "Grade", 
-    accessor: "grade",
-     className: "hidden md:table-cell"
-  },
-  {
-    header: "Supervisor", 
-    accessor: "supervisor",
+    header: "Teacher", 
+    accessor: "teacher",
      className: "hidden md:table-cell"
   },
     {
@@ -44,11 +39,9 @@ const LessonListPage = () => {
 
 const renderRow = (item:Lesson) => (
   <tr key={item.id} className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-assumDevsPurpleLight">
-    <td className="flex items-center gap-4 p-4">
-        {item.name} </td>
-      <td className="hidden md:table-cell" >{item.name}</td>
-      <td className="hidden md:table-cell" >{item.grade}</td>
-       <td className="hidden md:table-cell" >{item.capacity}</td>
+      <td className="hidden md:table-cell" >{item.subject}</td>
+      <td>{item.class}</td>
+       <td className="hidden md:table-cell" >{item.teacher}</td>
       <td className="hidden md:table-cell" >{item.supervisor}</td>
    
     <td>
