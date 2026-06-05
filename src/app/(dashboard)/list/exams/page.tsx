@@ -5,11 +5,12 @@ import Table from '@/components/Table';
 import Link from 'next/link';
 import { lessonsData, role } from '@/lib/data';
 
-type Lesson = {
+type Exam = {
   id: number;
   subject: string;
   class: number;
   teacher: number;
+  date: string;
 }
 
 const columns = [
