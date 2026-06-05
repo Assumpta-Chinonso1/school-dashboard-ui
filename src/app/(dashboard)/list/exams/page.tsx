@@ -27,6 +27,11 @@ const columns = [
     accessor: "teacher",
      className: "hidden md:table-cell"
   },
+  {
+    header: "Date", 
+    accessor: "date",
+     className: "hidden md:table-cell"
+  },
     {
     header: "Actions", 
     accessor: "actions",
@@ -38,7 +43,7 @@ const columns = [
 
 const ExamListPage = () => {
 
-const renderRow = (item:Lesson) => (
+const renderRow = (item:Exam) => (
   <tr key={item.id} className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-assumDevsPurpleLight">
    
       <td className="hidden md:table-cell" >{item.subject}</td>
