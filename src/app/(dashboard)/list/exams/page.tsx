@@ -3,7 +3,7 @@ import Pagination from '@/components/Pagination';
 import Image from 'next/image';
 import Table from '@/components/Table';
 import Link from 'next/link';
-import { lessonsData, role } from '@/lib/data';
+import { examsData,  role } from '@/lib/data';
 
 type Exam = {
   id: number;
@@ -50,6 +50,7 @@ const renderRow = (item:Exam) => (
         <td className="flex items-center gap-4 p-4">
         {item.class} </td>
        <td className="hidden md:table-cell" >{item.teacher}</td>
+         <td className="hidden md:table-cell" >{item.date}</td>
      
    
     <td>
@@ -72,7 +73,7 @@ const renderRow = (item:Exam) => (
     <div className='bg-white p-4 rounded-md flex-1 m-4 mt-0'>
       {/*Top*/}
       <div className="flex items-center justify-between">
-        <h1 className=" hidden md:block text-lg font-semibold" > All Lessons</h1>
+        <h1 className=" hidden md:block text-lg font-semibold" > All Exams</h1>
         <div className="flex flex-col md:flex-row items-center gap-4 w-full md:w-auto">
           <TableSearchPage />
           <div className="flex items-center gap-4 self-end">
@@ -91,7 +92,7 @@ const renderRow = (item:Exam) => (
         </div>
       </div>
       {/*List*/}
-      <Table columns={columns}  renderRow={renderRow} data={lessonsData}/>
+      <Table columns={columns}  renderRow={renderRow} data={examsData}/>
       {/*Pagination*/}
 
         <Pagination />
