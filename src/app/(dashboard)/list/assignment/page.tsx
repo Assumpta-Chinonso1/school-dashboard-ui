@@ -10,7 +10,7 @@ type Assignment = {
   subject: string;
   class: number;
   teacher: number;
-  date: string;
+  dueDate: string;
 }
 
 const columns = [
@@ -50,7 +50,7 @@ const renderRow = (item:Assignment) => (
         <td className="flex items-center gap-4 p-4">
         {item.class} </td>
        <td className="hidden md:table-cell" >{item.teacher}</td>
-         <td className="hidden md:table-cell" >{item.date}</td>
+         <td className="hidden md:table-cell" >{item.dueDate}</td>
      
    
     <td>
