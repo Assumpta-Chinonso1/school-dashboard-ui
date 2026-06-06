@@ -3,7 +3,7 @@ import Pagination from '@/components/Pagination';
 import Image from 'next/image';
 import Table from '@/components/Table';
 import Link from 'next/link';
-import { examsData,  role } from '@/lib/data';
+import { assignmentsData, examsData,  role } from '@/lib/data';
 
 type Assignment = {
   id: number;
@@ -92,7 +92,7 @@ const renderRow = (item:Assignment) => (
         </div>
       </div>
       {/*List*/}
-      <Table columns={columns}  renderRow={renderRow} data={examsData}/>
+      <Table columns={columns}  renderRow={renderRow} data={assignmentsData}/>
       {/*Pagination*/}
 
         <Pagination />
