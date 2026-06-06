@@ -28,8 +28,8 @@ const columns = [
      className: "hidden md:table-cell"
   },
   {
-    header: "Date", 
-    accessor: "date",
+    header: "DueDate", 
+    accessor: "duedate",
      className: "hidden md:table-cell"
   },
     {
