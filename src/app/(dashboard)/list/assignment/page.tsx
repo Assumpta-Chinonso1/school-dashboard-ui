@@ -5,7 +5,7 @@ import Table from '@/components/Table';
 import Link from 'next/link';
 import { examsData,  role } from '@/lib/data';
 
-type Exam = {
+type Assignment = {
   id: number;
   subject: string;
   class: number;
