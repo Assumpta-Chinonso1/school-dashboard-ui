@@ -29,7 +29,7 @@ const columns = [
   },
   {
     header: "DueDate", 
-    accessor: "duedate",
+    accessor: "dueDate",
      className: "hidden md:table-cell"
   },
     {
