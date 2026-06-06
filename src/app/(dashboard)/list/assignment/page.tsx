@@ -41,7 +41,7 @@ const columns = [
 
 ]
 
-const ExamListPage = () => {
+const AssignmentListPage = () => {
 
 const renderRow = (item:Exam) => (
   <tr key={item.id} className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-assumDevsPurpleLight">
@@ -101,4 +101,4 @@ const renderRow = (item:Exam) => (
   );
 };
 
-export default ExamListPage;
+export default AssignmentListPage;
