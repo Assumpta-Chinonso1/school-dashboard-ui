@@ -3,7 +3,7 @@ import Pagination from '@/components/Pagination';
 import Image from 'next/image';
 import Table from '@/components/Table';
 import Link from 'next/link';
-import { assignmentsData, examsData,  role } from '@/lib/data';
+import { assignmentsData, role } from '@/lib/data';
 
 type Assignment = {
   id: number;
@@ -73,7 +73,7 @@ const renderRow = (item:Assignment) => (
     <div className='bg-white p-4 rounded-md flex-1 m-4 mt-0'>
       {/*Top*/}
       <div className="flex items-center justify-between">
-        <h1 className=" hidden md:block text-lg font-semibold" > All Assignment</h1>
+        <h1 className=" hidden md:block text-lg font-semibold" > All Assignments</h1>
         <div className="flex flex-col md:flex-row items-center gap-4 w-full md:w-auto">
           <TableSearchPage />
           <div className="flex items-center gap-4 self-end">
