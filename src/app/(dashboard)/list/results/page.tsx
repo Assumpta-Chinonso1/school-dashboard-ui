@@ -13,6 +13,7 @@ type Result = {
   student: string;
   type: "exam" | "assignmenet";
   date: string;
+  score: number;
 }
 
 const columns = [
