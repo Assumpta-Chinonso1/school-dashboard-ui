@@ -5,12 +5,13 @@ import Table from '@/components/Table';
 import Link from 'next/link';
 import { resultsData, role } from '@/lib/data';
 
-type Assignment = {
+type Result = {
   id: number;
   subject: string;
   class: number;
   teacher: number;
-  dueDate: string;
+  student: string;
+  
 }
 
 const columns = [
