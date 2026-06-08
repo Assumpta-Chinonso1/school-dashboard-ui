@@ -41,7 +41,7 @@ const columns = [
 
 ]
 
-const AssignmentListPage = () => {
+const ResultListPage = () => {
 
 const renderRow = (item:Assignment) => (
   <tr key={item.id} className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-assumDevsPurpleLight">
