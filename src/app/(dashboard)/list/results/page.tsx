@@ -21,9 +21,14 @@ const columns = [
     header: "Subject name", 
     accessor: "name"
   },
-  {
-    header: "Class", 
-    accessor: "class",
+   {
+    header: "Student", 
+    accessor: "student",
+  },
+   {
+    header: "Score", 
+    accessor: "score",
+    className: "hidden md:table-cell"
   },
   {
     header: "Teacher", 
@@ -31,8 +36,13 @@ const columns = [
      className: "hidden md:table-cell"
   },
   {
-    header: "DueDate", 
-    accessor: "dueDate",
+    header: "Class", 
+    accessor: "class",
+     className: "hidden md:table-cell"
+  },
+  {
+    header: "Date", 
+    accessor: "Date",
      className: "hidden md:table-cell"
   },
     {
@@ -46,12 +56,12 @@ const columns = [
 
 const ResultListPage = () => {
 
-const renderRow = (item:Assignment) => (
+const renderRow = (item:Result) => (
   <tr key={item.id} className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-assumDevsPurpleLight">
    
-      <td className="hidden md:table-cell" >{item.subject}</td>
-        <td className="flex items-center gap-4 p-4">
-        {item.class} </td>
+      <td className="hidden md:table-cell gap-4 p-4" >{item.subject}</td>
+       <td className="flex items-center">{item.class} </td>
+        <td className="flex items-center">{item.class} </td>
        <td className="hidden md:table-cell" >{item.teacher}</td>
          <td className="hidden md:table-cell" >{item.dueDate}</td>
      
