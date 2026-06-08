@@ -11,7 +11,8 @@ type Result = {
   class: number;
   teacher: number;
   student: string;
-  
+  type: "exam" | "assignmenet";
+  date: string;
 }
 
 const columns = [
