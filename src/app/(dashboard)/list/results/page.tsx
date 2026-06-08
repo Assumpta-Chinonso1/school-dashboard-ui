@@ -101,4 +101,4 @@ const renderRow = (item:Assignment) => (
   );
 };
 
-export default AssignmentListPage;
+export default ResultListPage;
