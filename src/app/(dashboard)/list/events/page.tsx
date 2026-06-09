@@ -9,7 +9,7 @@ type Event = {
   title: number;
   class: string;
   date: string;
-  score: number;
+  
 }
 
 const columns = [
