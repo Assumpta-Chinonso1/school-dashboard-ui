@@ -5,13 +5,9 @@ import Table from '@/components/Table';
 import Link from 'next/link';
 import { resultsData, role } from '@/lib/data';
 
-type Result = {
-  id: number;
+type Event = {
+  title: number;
   subject: string;
-  class: number;
-  teacher: number;
-  student: string;
-  type: "exam" | "assignmenet";
   date: string;
   score: number;
 }
