@@ -6,7 +6,8 @@ import Link from 'next/link';
 import { resultsData, role } from '@/lib/data';
 
 type Event = {
-  title: number;
+  id: number;
+  title: string;
   class: string;
   date: string;
   startTime: string;
@@ -51,12 +52,12 @@ const EventListPage = () => {
 const renderRow = (item:Event) => (
   <tr key={item.id} className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-assumDevsPurpleLight">
    
-      <td className="hidden md:table-cell gap-4 p-4" >{item.subject}</td>
-       <td>{item.student} </td>
-        <td className="hidden md:table-cell">{item.score} </td>
-        <td className="hidden md:table-cell">{item.teacher} </td>
-       <td className="hidden md:table-cell" >{item.class}</td>
-         <td className="hidden md:table-cell" >{item.date}</td>
+      <td className="hidden md:table-cell gap-4 p-4" >{item.title}</td>
+       <td>{item.class} </td>
+        <td className="hidden md:table-cell">{item.date} </td>
+        <td className="hidden md:table-cell">{item.startTime} </td>
+       <td className="hidden md:table-cell" >{item.endTime}</td>
+         
      
    
     <td>
