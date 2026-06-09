@@ -7,7 +7,7 @@ import { resultsData, role } from '@/lib/data';
 
 type Event = {
   title: number;
-  subject: string;
+  class: string;
   date: string;
   score: number;
 }
