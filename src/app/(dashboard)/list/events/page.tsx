@@ -48,7 +48,7 @@ const columns = [
 
 const EventListPage = () => {
 
-const renderRow = (item:Result) => (
+const renderRow = (item:Event) => (
   <tr key={item.id} className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-assumDevsPurpleLight">
    
       <td className="hidden md:table-cell gap-4 p-4" >{item.subject}</td>
