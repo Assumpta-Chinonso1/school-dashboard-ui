@@ -9,7 +9,8 @@ type Event = {
   title: number;
   class: string;
   date: string;
-  
+  startTime: string;
+  endTime: string;
 }
 
 const columns = [
