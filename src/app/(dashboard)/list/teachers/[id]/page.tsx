@@ -4,8 +4,10 @@ const SingleTeachersPage = () => {
         
         {/*LEFT*/}
         <div className="w-ful xl:w-2/3">
+        {/*TOP*/}
+        <div className=""></div>
         {/*USER INFO CARD*/}
-        
+
         </div>
 
         {/*RIGHT*/}
