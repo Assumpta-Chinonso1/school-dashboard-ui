@@ -4,6 +4,11 @@ const SingleTeachersPage = () => {
         
         {/*LEFT*/}
         <div className="">
+
+        </div>
+
+        {/*RIGHT*/}
+        <div className="">
             
         </div>
         
