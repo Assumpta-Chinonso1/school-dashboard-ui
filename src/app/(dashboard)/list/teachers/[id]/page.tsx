@@ -1,6 +1,6 @@
 const SingleTeachersPage = () => {
   return (
-    <div classN>SingleTeachersPage</div>
+    <div className="flex-1 p-4 flex flex-col xl:flex-row">SingleTeachersPage</div>
   );
 };
 
