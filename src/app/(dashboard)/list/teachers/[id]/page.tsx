@@ -11,7 +11,7 @@ const SingleTeachersPage = () => {
         {/*USER INFO CARD*/}
         <div className=""></div>
         
-        {/*USER INFO CARD*/}
+        {/*SMALL CARD*/}
         <div className=""></div>
 
         </div>
