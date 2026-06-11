@@ -15,6 +15,8 @@ const SingleTeachersPage = () => {
         <div className=""></div>
 
         </div>
+        {/*BOTTOM*/}
+        <div className=""></div>
         </div>
 
 
