@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const SingleTeachersPage = () => {
   return (
     <div className="flex-1 p-4 flex flex-col gap-4 xl:flex-row">
@@ -10,7 +12,9 @@ const SingleTeachersPage = () => {
 
         {/*USER INFO CARD*/}
         <div className="bg-assumDevs py-6 px-4 rounded-md flex-1 flex  gap-4">
-          <div className="w-1/2"></div>
+          <div className="w-1/2">
+          <Image src="" alt="" width={144} height={144} className="w-36 h-36 rounded-full object-cover" />
+          </div>
           <div className="w-2/3"></div>
         </div>
         
