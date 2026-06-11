@@ -16,7 +16,7 @@ const SingleTeachersPage = () => {
 
         </div>
         {/*BOTTOM*/}
-        <div className=""></div>
+        <div className="">Schedule</div>
         </div>
 
 
