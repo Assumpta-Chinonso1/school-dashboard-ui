@@ -13,9 +13,9 @@ const SingleTeachersPage = () => {
         {/*USER INFO CARD*/}
         <div className="bg-assumDevs py-6 px-4 rounded-md flex-1 flex  gap-4">
           <div className="w-1/2">
-          <Image src="" alt="" width={144} height={144} className="w-36 h-36 rounded-full object-cover" />
+          <Image src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="" width={144} height={144} className="w-36 h-36 rounded-full object-cover" />
           </div>
-          <div className="w-2/3"></div>
+          <div className="w-2/3 flex flex-col justify-between gap-4"></div>
         </div>
         
         {/*SMALL CARD*/}
