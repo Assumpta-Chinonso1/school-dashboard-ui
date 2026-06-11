@@ -15,7 +15,15 @@ const SingleTeachersPage = () => {
           <div className="w-1/2">
           <Image src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="" width={144} height={144} className="w-36 h-36 rounded-full object-cover" />
           </div>
-          <div className="w-2/3 flex flex-col justify-between gap-4"></div>
+          <div className="w-2/3 flex flex-col justify-between gap-4">
+          <h1>Peters Dominic</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Autem reprehenderit 
+            consequuntur repellendus ducimus blanditiis veniam 
+            aperiam consequatur nesciunt, rem reiciendis, 
+            perferendis ut sed quam placeat,
+             accusamus doloremque officia maxime saepe? </p>
+          </div>
         </div>
         
         {/*SMALL CARD*/}
