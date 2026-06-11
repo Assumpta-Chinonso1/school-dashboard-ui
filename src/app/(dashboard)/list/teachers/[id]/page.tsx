@@ -6,10 +6,10 @@ const SingleTeachersPage = () => {
         <div className="w-ful xl:w-2/3">
 
         {/*TOP*/}
-        <div className="">
+        <div className="flex flex-col lg:flex-row gap-4">
 
         {/*USER INFO CARD*/}
-        <div className=""></div>
+        <div className="bg-assumDevs py-6 px-4 rounded-md flex-1"></div>
         
         {/*SMALL CARD*/}
         <div className=""></div>
