@@ -28,7 +28,7 @@ const SingleTeachersPage = () => {
               <Image src="/date.png" alt="" width={14} height={14} />
               <span>June 2026</span>
             </div>
-            <div className="">
+               
               <Image src="/mail.png" alt="" width={14} height={14} />
               <span>AssumDevs@gmail.com</span>
             </div>
