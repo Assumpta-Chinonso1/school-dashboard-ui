@@ -19,10 +19,24 @@ const SingleTeachersPage = () => {
           <h1 className="text-xl font-semibold">Peters Dominic</h1>
           <p className="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           <div className="flex items-center justify-between gap-2 flex-wrap text-xs font-medium">
+
             <div className="">
               <Image sr="/blood.png" alt="" width={14} height={14} />
-              span
+              <span>A+</span>
             </div>
+            <div className="">
+              <Image sr="/blood.png" alt="" width={14} height={14} />
+              <span>A+</span>
+            </div>
+            <div className="">
+              <Image sr="/blood.png" alt="" width={14} height={14} />
+              <span>A+</span>
+            </div>
+            <div className="">
+              <Image sr="/blood.png" alt="" width={14} height={14} />
+              <span>A+</span>
+            </div>
+
           </div>
           </div>
         </div>
