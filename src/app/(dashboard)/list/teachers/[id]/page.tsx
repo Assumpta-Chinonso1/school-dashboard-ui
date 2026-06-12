@@ -21,20 +21,20 @@ const SingleTeachersPage = () => {
           <div className="flex items-center justify-between gap-2 flex-wrap text-xs font-medium">
 
             <div className="">
-              <Image sr"/blood.png" alt="" width={14} height={14} />
+              <Image sr="/blood.png" alt="" width={14} height={14} />
               <span>A+</span>
             </div>
             <div className="">
-              <Image sr"/date.png" alt="" width={14} height={14} />
+              <Image sr="/date.png" alt="" width={14} height={14} />
               <span>June 2026</span>
             </div>
             <div className="">
-              <Image sr"/blood.png" alt="" width={14} height={14} />
-              <span>A+</span>
+              <Image sr="/mail.png" alt="" width={14} height={14} />
+              <span>AssumDevs@gmail.com</span>
             </div>
             <div className="">
-              <Image sr"/blood.png" alt="" width={14} height={14} />
-              <span>A+</span>
+              <Image sr="/phone.png" alt="" width={14} height={14} />
+              <span>+234 5634 2566 443</span>
             </div>
 
           </div>
