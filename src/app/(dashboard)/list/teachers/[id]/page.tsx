@@ -42,7 +42,9 @@ const SingleTeachersPage = () => {
         </div>
         
         {/*SMALL CARD*/}
-        <div className="flex-1"></div>
+        <div className="flex-1 flex gap-4 justify-between flex-wrap">
+          
+        </div>
 
         </div>
         {/*BOTTOM*/}
