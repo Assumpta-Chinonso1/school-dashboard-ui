@@ -44,7 +44,7 @@ const SingleTeachersPage = () => {
         {/*SMALL CARD*/}
         <div className="flex-1 flex gap-4 justify-between flex-wrap">
           {/*CARD*/}
-          <div className="">
+          <div className="bg-white p-4 rounded-md flex gap-4 w-full ">
              <Image  src="/SingleAttendance.png" alt="" width={24} height={24} className="w-6 h-6" />
              <div className="">
               <h1 className="text-xl font-semibold" >90%</h1>
