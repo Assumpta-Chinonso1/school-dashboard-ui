@@ -43,7 +43,10 @@ const SingleTeachersPage = () => {
         
         {/*SMALL CARD*/}
         <div className="flex-1 flex gap-4 justify-between flex-wrap">
-          
+          {/*CARD*/}
+          <div className="">
+             <I
+          </div>
         </div>
 
         </div>
