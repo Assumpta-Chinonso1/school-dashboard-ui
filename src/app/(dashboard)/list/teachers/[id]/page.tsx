@@ -45,7 +45,7 @@ const SingleTeachersPage = () => {
         <div className="flex-1 flex gap-4 justify-between flex-wrap">
           {/*CARD*/}
           <div className="">
-             <I
+             <Image  src="/SingleAttandance" alt="" width={} height={} />
           </div>
         </div>
 
