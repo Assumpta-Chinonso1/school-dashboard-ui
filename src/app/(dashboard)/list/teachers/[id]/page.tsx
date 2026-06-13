@@ -34,7 +34,7 @@ const SingleTeachersPage = () => {
             </div>
                <div className="w-full md:w-1/3 lg:w-full 2xl:w-1/3 flex items-center gap-2">
                <Image src="/phone.png" alt="" width={14} height={14} />
-              <span>+234 5634 2566 443</span>
+              <span>+234 5634</span>
             </div>
 
           </div>
@@ -53,7 +53,7 @@ const SingleTeachersPage = () => {
           </div>
 
            {/*CARD*/}
-          <div className="">
+          <div className="bg-white p-4 rounded-md flex gap-4 w-full md:w-[48%]">
              <Image  src="/SingleBranch.png" alt="" width={24} height={24} className="w-6 h-6" />
              <div className="">
               <h1 className="text-xl font-semibold" >2</h1>
@@ -62,7 +62,7 @@ const SingleTeachersPage = () => {
           </div>
 
            {/*CARD*/}
-          <div className="">
+             <div className="bg-white p-4 rounded-md flex gap-4 w-full md:w-[48%]">
              <Image  src="/SingleLesson.png" alt="" width={24} height={24} className="w-6 h-6" />
              <div className="">
               <h1 className="text-xl font-semibold" >6</h1>
@@ -71,7 +71,7 @@ const SingleTeachersPage = () => {
           </div>
 
            {/*CARD*/}
-          <div className="">
+             <div className="bg-white p-4 rounded-md flex gap-4 w-full md:w-[48%]">
              <Image  src="/SingleClass.png" alt="" width={24} height={24} className="w-6 h-6" />
              <div className="">
               <h1 className="text-xl font-semibold" >6</h1>
