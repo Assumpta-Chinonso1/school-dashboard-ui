@@ -51,6 +51,16 @@ const SingleTeachersPage = () => {
               <span className="text-sm text-gray-400" >Attendance</span>
              </div>
           </div>
+
+           {/*CARD*/}
+          <div className="">
+             <Image  src="/SingleAttendance.png" alt="" width={24} height={24} className="w-6 h-6" />
+             <div className="">
+              <h1 className="text-xl font-semibold" >90%</h1>
+              <span className="text-sm text-gray-400" >Attendance</span>
+             </div>
+          </div>
+          
         </div>
 
         </div>
