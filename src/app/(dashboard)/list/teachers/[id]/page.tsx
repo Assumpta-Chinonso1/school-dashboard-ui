@@ -95,7 +95,8 @@ const SingleTeachersPage = () => {
         {/*RIGHT*/}
         <div className="w-full xl:w-1/3">
         <div className="bg-white p-4 rounded-md">
-
+              <h1 className="text-xl font-semibold">Shortcut</h1>
+              div
         </div>
         <Announcements/>
         </div>
