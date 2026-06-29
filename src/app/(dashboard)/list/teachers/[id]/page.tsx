@@ -83,7 +83,7 @@ const SingleTeachersPage = () => {
 
         </div>
         {/*BOTTOM*/}
-        <div className="">Schedule</div>
+        <div className="mt-4 bg-white rounded-md p-4">Schedule</div>
         </div>
 
 
