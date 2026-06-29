@@ -1,3 +1,4 @@
+import Announcements from "@/components/Announcements";
 import BigCalendar from "@/components/BigCalendar";
 import Image from "next/image";
 
@@ -84,7 +85,7 @@ const SingleTeachersPage = () => {
 
         </div>
         {/*BOTTOM*/}
-        <div className="mt-4 bg-white rounded-md p-4 [800px]">
+        <div className="mt-4 bg-white rounded-md p-4 h-[800px]">
           <h1>Teacher&apos;s Schedule</h1>
           <BigCalendar/>
         </div>
@@ -92,7 +93,9 @@ const SingleTeachersPage = () => {
 
 
         {/*RIGHT*/}
-        <div className="w-full xl:w-1/3">r</div>
+        <div className="w-full xl:w-1/3">
+        <Announcements/>
+        </div>
         
         </div>
   );
