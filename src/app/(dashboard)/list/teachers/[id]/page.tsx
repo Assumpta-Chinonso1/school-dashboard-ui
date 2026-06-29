@@ -1,6 +1,7 @@
 import Announcements from "@/components/Announcements";
 import BigCalendar from "@/components/BigCalendar";
 import Image from "next/image";
+import Link from "next/link";
 
 const SingleTeachersPage = () => {
   return (
@@ -96,7 +97,9 @@ const SingleTeachersPage = () => {
         <div className="w-full xl:w-1/3">
         <div className="bg-white p-4 rounded-md">
               <h1 className="text-xl font-semibold">Shortcut</h1>
-              <div className="mt-4 flex gap-4 flex-wrap text-xs text-gray-500"></div>
+              <div className="mt-4 flex gap-4 flex-wrap text-xs text-gray-500">
+                <Link href="/"> Teacher&apos;s Classes </Link>
+              </div>
         </div>
         <Announcements/>
         </div>
