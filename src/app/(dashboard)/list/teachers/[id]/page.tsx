@@ -83,7 +83,9 @@ const SingleTeachersPage = () => {
 
         </div>
         {/*BOTTOM*/}
-        <div className="mt-4 bg-white rounded-md p-4">Schedule</div>
+        <div className="mt-4 bg-white rounded-md p-4 [800px]">
+          <h1>Teacher's Schedule</h1>
+        </div>
         </div>
 
 
