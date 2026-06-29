@@ -99,6 +99,10 @@ const SingleTeachersPage = () => {
               <h1 className="text-xl font-semibold">Shortcut</h1>
               <div className="mt-4 flex gap-4 flex-wrap text-xs text-gray-500">
                 <Link href="/"> Teacher&apos;s Classes </Link>
+                <Link href="/"> Teacher&apos;s  Students </Link>
+                <Link href="/"> Teacher&apos;s Lessons </Link>
+                <Link href="/"> Teacher&apos;s Exams </Link>
+                <Link href="/"> Teacher&apos;s Assignments </Link>
               </div>
         </div>
         <Announcements/>
