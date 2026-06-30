@@ -1,5 +1,6 @@
 import Announcements from "@/components/Announcements";
 import BigCalendar from "@/components/BigCalendar";
+import Performance from "@/components/Performance";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -105,6 +106,7 @@ const SingleTeachersPage = () => {
                 <Link className="p-3 rounded-md bg-assumDevs" href="/"> Teacher&apos;s Assignments </Link>
               </div>
         </div>
+        <Performance/>
         <Announcements/>
         </div>
         
