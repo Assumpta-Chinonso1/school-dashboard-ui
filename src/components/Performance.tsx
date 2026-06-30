@@ -13,7 +13,23 @@ const data = [
 const Performance = () => {
   return (
     <div>
-             
+        <ResponsiveContainer>
+            <PieChart>
+      <Pie
+        dataKey="value"
+        startAngle={180}
+        endAngle={0}
+        data={data}
+        cx="50%" 
+        cy="100%"
+        outerRadius="120%"
+        fill="#8884d8"
+        label
+        isAnimationActive={isAnimationActive}
+      />
+  
+      </PieChart>
+   </ResponsiveContainer>
 
     </div>
   );
