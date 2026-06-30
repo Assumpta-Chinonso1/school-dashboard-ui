@@ -12,7 +12,10 @@ const data = [
 
 const Performance = () => {
   return (
-    <div>Performance</div>
+    <div>
+             
+
+    </div>
   );
 };
 
